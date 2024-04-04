@@ -10,6 +10,7 @@ import {
   WalletAdapterNetwork,
 } from "@demox-labs/aleo-wallet-adapter-base";
 import "./App.css";
+import Canvas from "./Canvas";
 
 require("@demox-labs/aleo-wallet-adapter-reactui/styles.css");
 
@@ -40,6 +41,7 @@ export const App = () => {
           </WalletModalProvider>
         </WalletProvider>
       </div>
+      <Canvas />
     </div>
   );
 };
